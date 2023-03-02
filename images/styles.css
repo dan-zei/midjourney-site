@@ -1,0 +1,89 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    display: inline;
+}
+
+h1, h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    margin: 25px auto;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin: 25px auto;
+}
+
+.btn {
+    color: black;
+    font-weight: bold;
+    margin: auto 20px;
+}
+
+/* header section */
+
+#header {
+    background-image: url("landscape.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.header-text {
+    line-height: 2;
+    padding: 100px 30%;
+}
+
+/* my examples section */
+
+#my-examples {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("unique-place.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5% 15%;
+}
+
+.my-input {
+    width: 50%;
+}
+
+/* backstory section */
+
+.david-holz {
+    padding-bottom: 5%;
+    width: 40%;
+}
+
+.row {
+    display: inline block;
+    line-height: 2rem;
+    padding: 2.5% 10%;
+    text-align: center;
+}
+
+/* examples */
+
+#examples {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("building.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5% 15%;
+}
+
+.example {
+    width: 50%;
+}
+
+/* footer section */
+
+#footer {
+    padding: 20px 15%;
+}
